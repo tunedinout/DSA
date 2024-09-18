@@ -4,15 +4,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import interfaces.Graph;
 
-/**
- * Node
- */
- class Node {
-
-    
-}
-public class UndirectedGraph {
+public class UndirectedGraph implements Graph {
     private Map<Integer, Set<Integer>> adjList;
     public int vertices;
 
